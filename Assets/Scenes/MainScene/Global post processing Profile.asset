@@ -220,7 +220,7 @@ MonoBehaviour:
     max: 10
   bloomThreshold:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.5
     min: 0
     max: 5
   bloomMaxBrightness:
@@ -331,7 +331,7 @@ MonoBehaviour:
     max: 10
   anamorphicFlaresThreshold:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.5
     min: 0
     max: 5
   anamorphicFlaresTint:
