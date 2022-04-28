@@ -13,7 +13,7 @@
 /[Aa]ssets/[Rr]ayFire/[Pp]]lugins/[Ii]os/
 /[Aa]ssets/Procedural Worlds/Gaia/Asset Samples/NatureManufacture/Arrays
 
-FMOD source control
+# FMOD source control
 
 !/[Aa]ssets/Plugins/FMOD/**/lib/*
 
@@ -28,6 +28,7 @@ FMOD source control
 # Procedural Worlds
 Assets/Procedural Worlds/Gaia
 Assets/Procedural Worlds/Gaia.meta
+
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
