@@ -60,11 +60,11 @@ MonoBehaviour:
     m_Value: 0
   downsamplingMultiplier:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 8
     min: 1
     max: 8
   downsamplingBilinear:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   optimizeBuildBeautifyAuto:
     m_OverrideState: 1
@@ -163,21 +163,21 @@ MonoBehaviour:
     m_Value: 1
   saturate:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1.6
     min: -2
     max: 3
   brightness:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.2
     min: 0
     max: 2
   contrast:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.1
     min: 0.5
     max: 1.5
   daltonize:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
     min: 0
     max: 2
@@ -187,32 +187,32 @@ MonoBehaviour:
     min: 0
     max: 1
   tintColor:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 0}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   colorTemp:
-    m_OverrideState: 0
-    m_Value: 6550
+    m_OverrideState: 1
+    m_Value: 12427
     min: 1000
     max: 40000
   colorTempBlend:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.4
     min: 0
     max: 1
   lut:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   lutIntensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.65
     min: 0
     max: 1
   lutTexture:
-    m_OverrideState: 0
-    m_Value: {fileID: 0}
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: cb660b42a27954f348c1567c26aaf7c9, type: 3}
   bloomIntensity:
     m_OverrideState: 1
     m_Value: 1.4
@@ -682,42 +682,42 @@ MonoBehaviour:
     min: 0
     max: 1
   vignettingOuterRing:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: 0
     max: 1
   vignettingInnerRing:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.85
     min: 0
     max: 1
   vignettingFade:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: 0
     max: 1
   vignettingCircularShape:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   vignettingAspectRatio:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0.88
     min: 0
     max: 1
   vignettingBlink:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: 0
     max: 1
   vignettingBlinkStyle:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   vignettingCenter:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 0.5, y: 0.5}
   vignettingColor:
-    m_OverrideState: 0
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.10370016, g: 0, b: 1, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
@@ -726,16 +726,16 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   outline:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   outlineColor:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 0.8}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   outlineThreshold:
-    m_OverrideState: 0
-    m_Value: 0.1
+    m_OverrideState: 1
+    m_Value: 0.05
     min: 0
     max: 1
   nightVision:
@@ -749,7 +749,7 @@ MonoBehaviour:
     showEyeDropper: 1
   blurIntensity:
     m_OverrideState: 0
-    m_Value: 4
+    m_Value: 0
     min: 0
     max: 4
   ditherIntensity:
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
@@ -777,7 +777,7 @@ MonoBehaviour:
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 3
     min: 0
   scatter:
     m_OverrideState: 1
@@ -807,7 +807,7 @@ MonoBehaviour:
     m_Value: {fileID: 2800000, guid: 0448ffbb2d259c74496e9252af0411b6, type: 3}
   dirtIntensity:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 6
     min: 0
 --- !u!114 &5332308780322990622
 MonoBehaviour:
